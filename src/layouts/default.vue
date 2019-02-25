@@ -1,11 +1,10 @@
 <template>
-  <section class="wrapper">
+  <section class="layout-container">
     <nuxt-child/>
   </section>
 </template>
 
 <script>
-
 export default {
 	name: 'layouts-default',
 };
