@@ -32,6 +32,17 @@ export default {
 	text-align: center;
 }
 
+.letter {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.number {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 .small {
 	font-size: 14px;
 	opacity: 0.9;
