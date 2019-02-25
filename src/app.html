@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" {{ HTML_ATTRS }}>
+	<head>
+		{{
+			HEAD
+		}}
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<style>
+			* {
+				box-sizing: border-box;
+				font-family: 'Open Sans', monospace;
+				font-size: 16px;
+				margin: 0;
+				padding: 0;
+			}
+
+			:root {
+				--smallSpacing: 10px;
+				--largeSpacing: 20px;
+				--smallPadding: 10px;
+				--largePadding: 20px;
+			}
+		</style>
+		<link rel="preload" href="/fonts.css" as="style" />
+		<link href="/fonts.css" rel="stylesheet" />
+	</head>
+	<body {{ BODY_ATTRS }}>
+		<noscript>
+			<h2>
+				Sorry to bother you, but I really need javascript enable.
+			</h2>
+		</noscript>
+		{{ APP }}
+	</body>
+</html>

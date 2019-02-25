@@ -1,0 +1,29 @@
+{
+	"name": "portfolio-eperedo",
+	"version": "1.0.0",
+	"description": "A basic integration between nuxt spa and netlify",
+	"private": true,
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eperedo/portfolio.git"
+	},
+	"keywords": [],
+	"author": "Eduardo P. Rivero <jrperedo@gmail.com> (https://blog.eperedo.com/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/eperedo/portfolio/issues"
+	},
+	"homepage": "https://github.com/eperedo/portfolio#readme",
+	"dependencies": {
+		"nuxt": "2.4.3"
+	},
+	"devDependencies": {
+		"dotenv": "6.2.0"
+	}
+}
