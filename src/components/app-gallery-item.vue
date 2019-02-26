@@ -1,7 +1,11 @@
 <template>
   <figure class="gallery-item">
     <a :href="url" target="_blank" rel="noopener">
-      <img class="gallery-image" :src="image" width="300" height="250" :alt="text">
+      <picture>
+        <source :srcset="`${image}.webp`" type="image/webp">
+        <source :srcset="`${image}.jpg`" type="image/jpeg">
+        <img class="gallery-image" :src="`${image}.jpg`" width="300" height="250" :alt="text">
+      </picture>
       <figcaption class="gallery-title">{{ text }}</figcaption>
     </a>
   </figure>

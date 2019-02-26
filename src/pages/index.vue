@@ -29,47 +29,47 @@
     </section>
     <section class="gallery">
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146397/portfolio/swtinder.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146397/portfolio/swtinder"
         text="Star Wars Tinder"
         url="https://swtinder.netlify.com"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146867/portfolio/platzi-match.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146867/portfolio/platzi-match"
         text="Platzi Match"
         url="https://platzi-match.netlify.com/"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146977/portfolio/nuxt-identity.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146977/portfolio/nuxt-identity"
         text="Nuxt Identity"
         url="https://nuxt-identity.netlify.com/"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147063/portfolio/osom-rating.gif"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147063/portfolio/osom-rating"
         text="Osom Rating"
         url="https://osomrating.netlify.com"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147115/portfolio/vue-static-map.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147115/portfolio/vue-static-map"
         text="Vue Static Map"
         url="https://github.com/eperedo/vue-static-map"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147196/portfolio/platzi-api.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147196/portfolio/platzi-api"
         text="Platzi Api"
         url="https://github.com/eperedo/platzi-api"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147344/portfolio/vue-six-four.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147344/portfolio/vue-six-four"
         text="Vue 64"
         url="https://github.com/eperedo/vue-64"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147417/portfolio/v-toggle.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147417/portfolio/v-toggle"
         text="Vue Toggle"
         url="https://github.com/eperedo/vue-toggle"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147627/portfolio/style-guide.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147627/portfolio/style-guide"
         text="My Style Guide"
         url="https://style-guide.eperedo.com/guides/js"
       />
