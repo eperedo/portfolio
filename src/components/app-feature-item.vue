@@ -26,6 +26,6 @@ export default {
 
 <style scoped>
 .feature-item {
-	color: --var(colorSecondary);
+	color: var(--colorSecondary);
 }
 </style>

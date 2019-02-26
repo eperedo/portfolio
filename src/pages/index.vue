@@ -10,11 +10,22 @@
     <app-text tag-name="h1" :styles="['title', 'center']">Eduardo P. Rivero</app-text>
     <app-text
       :styles="['small', 'center', 'app-text-wrapper']"
-    >UI/UX Designer at GTBank & Creative Director at PxDsgn Co. Creating simple digital products over 7+ years. Let’s talk designs via email: pxdsgnco@gmail.com</app-text>
+    >Software Developer creating web apps for 11 years. Love Javascript, vue, nuxt and learning flutter to introduce me at the mobile world. Let’s talk via email: jrperedo@gmail.com</app-text>
     <section class="feature-list">
       <app-feature-item number="15" text="Posts"/>
       <app-feature-item number="5" text="Apps"/>
       <app-feature-item number="3" text="Libraries"/>
+    </section>
+    <section class="gallery">
+      <app-gallery-item image="https://placecage.com/gif/200/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/300/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/425/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/525/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/625/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/725/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/825/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/925/125" url="https://google.com"/>
+      <app-gallery-item image="https://placecage.com/gif/600/125" url="https://google.com"/>
     </section>
   </section>
 </template>
@@ -22,6 +33,7 @@
 <script>
 import appAvatar from '@/components/app-avatar.vue';
 import appFeatureItem from '@/components/app-feature-item.vue';
+import appGalleryItem from '@/components/app-gallery-item.vue';
 import appText from '@/components/app-text.vue';
 
 export default {
@@ -29,6 +41,7 @@ export default {
 	components: {
 		appAvatar,
 		appFeatureItem,
+		appGalleryItem,
 		appText,
 	},
 };
@@ -48,8 +61,13 @@ export default {
 
 .feature-list {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	padding: 30px 0;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .wrapper {
