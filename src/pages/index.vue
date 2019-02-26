@@ -2,7 +2,8 @@
   <section class="wrapper">
     <div class="app-avatar">
       <app-avatar
-        src="https://avatars3.githubusercontent.com/u/461124?s=400&v=4"
+        src="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_111/v1551150285/portfolio/yo.jpg"
+        alt="Eduardo P. Rivero Avatar"
         width="111"
         height="111"
       />
@@ -23,52 +24,52 @@
     </app-text>
     <section class="feature-list">
       <app-feature-item number="17" text="Posts"/>
-      <app-feature-item number="4" text="Apps"/>
+      <app-feature-item number="5" text="Apps"/>
       <app-feature-item number="4" text="Libraries"/>
     </section>
     <section class="gallery">
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551146397/portfolio/swtinder.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146397/portfolio/swtinder.png"
         text="Star Wars Tinder"
         url="https://swtinder.netlify.com"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551146867/portfolio/platzi-match.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146867/portfolio/platzi-match.png"
         text="Platzi Match"
         url="https://platzi-match.netlify.com/"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551146977/portfolio/nuxt-identity.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146977/portfolio/nuxt-identity.png"
         text="Nuxt Identity"
         url="https://nuxt-identity.netlify.com/"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551147063/portfolio/osom-rating.gif"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147063/portfolio/osom-rating.gif"
         text="Osom Rating"
         url="https://osomrating.netlify.com"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551147115/portfolio/vue-static-map.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147115/portfolio/vue-static-map.png"
         text="Vue Static Map"
         url="https://github.com/eperedo/vue-static-map"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551147196/portfolio/platzi-api.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147196/portfolio/platzi-api.png"
         text="Platzi Api"
         url="https://github.com/eperedo/platzi-api"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551147344/portfolio/vue-six-four.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147344/portfolio/vue-six-four.png"
         text="Vue 64"
         url="https://github.com/eperedo/vue-64"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551147417/portfolio/v-toggle.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147417/portfolio/v-toggle.png"
         text="Vue Toggle"
         url="https://github.com/eperedo/vue-toggle"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1551147627/portfolio/style-guide.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147627/portfolio/style-guide.png"
         text="My Style Guide"
         url="https://style-guide.eperedo.com/guides/js"
       />

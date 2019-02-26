@@ -20,7 +20,7 @@ const config = {
 					'I like doing web apps with NuxtJs and sometimes mobile apps with flutter',
 			},
 		],
-		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+		link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
 	},
 	mode: 'spa',
 	rootDir: './src',

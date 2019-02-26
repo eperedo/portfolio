@@ -1,7 +1,7 @@
 <template>
   <figure class="gallery-item">
     <a :href="url" target="_blank" rel="noopener">
-      <img class="gallery-image" :src="image" width="300" height="250">
+      <img class="gallery-image" :src="image" width="300" height="250" :alt="text">
       <figcaption class="gallery-title">{{ text }}</figcaption>
     </a>
   </figure>
