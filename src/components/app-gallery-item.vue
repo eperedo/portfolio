@@ -1,10 +1,10 @@
 <template>
-  <div class="gallery-item">
+  <figure class="gallery-item">
     <a :href="url" target="_blank" rel="noopener">
-      <img class="gallery-image" :src="image" width="125" height="125">
+      <img class="gallery-image" :src="image" width="300" height="250">
+      <figcaption class="gallery-title">{{ text }}</figcaption>
     </a>
-    <figcaption>{{ text }}</figcaption>
-  </div>
+  </figure>
 </template>
 
 <script>
@@ -27,11 +27,23 @@ export default {
 </script>
 
 <style scoped>
-.gallery-item {
-	max-height: 125px;
+.gallery-image {
+	width: 100%;
+	object-fit: cover;
 }
 
-.gallery-image {
+.gallery-item {
+	cursor: pointer;
+	position: relative;
+}
+
+.gallery-title {
+	background-color: var(--colorSecondary);
+	bottom: 0;
+	color: var(--colorPrimary);
+	padding: 10px 0;
+	position: absolute;
+	text-align: center;
 	width: 100%;
 }
 </style>
