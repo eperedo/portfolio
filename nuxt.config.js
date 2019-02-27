@@ -17,13 +17,35 @@ const config = {
 				hid: 'description',
 				name: 'description',
 				content:
-					'I like doing web apps with NuxtJs and sometimes mobile apps with flutter',
+					'I like doing web apps with Vue, Nuxt and sometimes mobile apps with flutter',
 			},
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
 	},
+	icon: {
+		iconSrc: './src/assets/eperedo.png',
+	},
+	manifest: {
+		name: 'Eduardo P. Rivero',
+		lang: 'en',
+	},
 	mode: 'spa',
+	modules: ['@nuxtjs/pwa'],
 	rootDir: './src',
+	workbox: {
+		runtimeCaching: [
+			{
+				urlPattern: 'https://fonts.gstatic.com/s/exo2/.*',
+				handler: 'cacheFirst',
+				method: 'GET',
+			},
+			{
+				urlPattern: 'https://res.cloudinary.com/drukp4ipu/image/upload/.*',
+				handler: 'cacheFirst',
+				method: 'GET',
+			},
+		],
+	},
 };
 
 module.exports = config;
