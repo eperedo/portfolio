@@ -24,7 +24,7 @@
     </app-text>
     <section class="feature-list">
       <app-feature-item number="17" text="Posts"/>
-      <app-feature-item number="5" text="Apps"/>
+      <app-feature-item number="7" text="Apps"/>
       <app-feature-item number="4" text="Libraries"/>
     </section>
     <section class="gallery">
