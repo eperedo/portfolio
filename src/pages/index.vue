@@ -74,12 +74,12 @@
         url="https://style-guide.eperedo.com/guides/js"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805893/portfolio/jardi.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805893/portfolio/jardi"
         text="Jardi - A income/expense app"
         url="https://jardi.netlify.com"
       />
       <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805956/portfolio/ama-sua.png"
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805956/portfolio/ama-sua"
         text="Ama Sua"
         url="http://amasua.netlify.com"
       />
