@@ -10,7 +10,7 @@
     </div>
     <app-text tag-name="h1" :styles="['title', 'center']">Eduardo P. Rivero</app-text>
     <app-text :styles="['small', 'center', 'app-text-wrapper']">
-      Software Developer creating web apps for 11 years. Love Javascript, vue, nuxt and learning flutter to introduce me at the mobile world. Sometimes I like to
+      Software Developer creating web apps for 11 years. Love Javascript, vue, react and react-native. Sometimes I like to
       <a
         href="https://blog.eperedo.com"
         target="_blank"
@@ -23,8 +23,8 @@
       >github</a>
     </app-text>
     <section class="feature-list">
-      <app-feature-item number="17" text="Posts"/>
-      <app-feature-item number="7" text="Apps"/>
+      <app-feature-item number="42" text="Posts"/>
+      <app-feature-item number="3" text="Apps"/>
       <app-feature-item number="4" text="Libraries"/>
     </section>
     <section class="gallery">
@@ -32,16 +32,6 @@
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146397/portfolio/swtinder"
         text="Star Wars Tinder"
         url="https://swtinder.netlify.com"
-      />
-      <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146867/portfolio/platzi-match"
-        text="Platzi Match"
-        url="https://platzi-match.netlify.com/"
-      />
-      <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146977/portfolio/nuxt-identity"
-        text="Nuxt Identity"
-        url="https://nuxt-identity.netlify.com/"
       />
       <app-gallery-item
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147063/portfolio/osom-rating"
@@ -52,11 +42,6 @@
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147115/portfolio/vue-static-map"
         text="Vue Static Map"
         url="https://github.com/eperedo/vue-static-map"
-      />
-      <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147196/portfolio/platzi-api"
-        text="Platzi Api"
-        url="https://github.com/eperedo/platzi-api"
       />
       <app-gallery-item
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147344/portfolio/vue-six-four"
@@ -72,11 +57,6 @@
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147627/portfolio/style-guide"
         text="My Style Guide"
         url="https://style-guide.eperedo.com/guides/js"
-      />
-      <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805893/portfolio/jardi"
-        text="Jardi - A income/expense app"
-        url="https://jardi.netlify.com"
       />
       <app-gallery-item
         image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805956/portfolio/ama-sua"
