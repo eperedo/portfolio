@@ -24,10 +24,20 @@
     </app-text>
     <section class="feature-list">
       <app-feature-item number="42" text="Posts"/>
-      <app-feature-item number="3" text="Apps"/>
+      <app-feature-item number="4" text="Apps"/>
       <app-feature-item number="4" text="Libraries"/>
     </section>
     <section class="gallery">
+      <app-gallery-item
+        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805956/portfolio/ama-sua"
+        text="Ama Sua"
+        url="http://amasua.netlify.com"
+      />
+      <app-gallery-item
+        image="https://static.platzi.com/media/porfilio/lupita_1900cc83-43dd-41a2-81ff-06427501a6fc.webp"
+        text="Lupita Sunedu"
+        url="https://play.google.com/store/apps/details?id=com.lupitasunedu"
+      />
       <app-gallery-item
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551146397/portfolio/swtinder"
         text="Star Wars Tinder"
@@ -57,11 +67,6 @@
         image="https://res.cloudinary.com/drukp4ipu/image/upload/c_scale,w_300/v1551147627/portfolio/style-guide"
         text="My Style Guide"
         url="https://style-guide.eperedo.com/guides/js"
-      />
-      <app-gallery-item
-        image="https://res.cloudinary.com/drukp4ipu/image/upload/v1553805956/portfolio/ama-sua"
-        text="Ama Sua"
-        url="http://amasua.netlify.com"
       />
     </section>
   </section>
