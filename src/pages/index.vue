@@ -34,7 +34,7 @@
         url="http://amasua.netlify.com"
       />
       <app-gallery-item
-        image="https://static.platzi.com/media/porfilio/lupita_1900cc83-43dd-41a2-81ff-06427501a6fc.webp"
+        image="https://static.platzi.com/media/porfilio/lupita_1900cc83-43dd-41a2-81ff-06427501a6fc"
         text="Lupita Sunedu"
         url="https://play.google.com/store/apps/details?id=com.lupitasunedu"
       />
